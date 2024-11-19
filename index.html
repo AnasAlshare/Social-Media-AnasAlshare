@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social Media Links - Anas Alshare</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('bmw.jpg'); /* Add your photo URL here */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+            overflow: hidden;
+            background-blur: 10px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #fff;
+            margin-bottom: 20px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Header Section for Name and Photo */
+        .header {
+            margin-bottom: 40px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            margin-bottom: 20px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: #ddd;
+            font-weight: 300;
+        }
+
+        /* Add a semi-transparent overlay to enhance text visibility */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+            z-index: 0;
+        }
+
+        /* Social Media Grid Container */
+        .social-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 30px;
+            max-width: 900px;
+            width: 100%;
+            padding: 20px;
+            justify-items: center;
+            align-items: center;
+            margin-top: 40px;
+            z-index: 1; /* Ensure icons are above the background */
+        }
+
+        /* Individual Social Media Icon */
+        .social-icon {
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .social-icon img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icon:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Platform-Specific Styles */
+        .instagram { background-color: #E4405F; }
+        .facebook { background-color: #3b5998; }
+        .discord { background-color: #7289da; }
+        .whatsapp { background-color: #25D366; }
+        .tiktok { background-color: #000000; }
+        .twitter { background-color: #1DA1F2; }
+        .snapchat { background-color: #FFFC00; }
+        .threads { background-color: #1C1C1C; }
+        .redz { background-color: #F1F1F1; }
+
+        /* Add smooth hover effect for social media icons */
+        .social-icon:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Overlay to darken the background -->
+    <div class="overlay"></div>
+
+    <!-- Header Section: Name and Photo -->
+    <div class="header">
+        <img src="me.jpg" alt="Anas Alshare">
+        <h1>Anas Alshare</h1>
+        <p>Welcome to my social media page!</p>
+    </div>
+
+    <!-- Social Media Grid -->
+    <div class="social-grid">
+        <div class="social-icon instagram">
+            <a href="https://www.instagram.com/anas_alshare?igsh=MXIxaGc4dHVzOGRyMw==" target="_blank">
+                <img src="insta.jpg" alt="Instagram">
+            </a>
+        </div>
+
+        <div class="social-icon facebook">
+            <a href="https://www.facebook.com/anas.alsharea?mibextid=ZbWKwL" target="_blank">
+                <img src="facebook.jpg" alt="Facebook">
+            </a>
+        </div>
+
+        <div class="social-icon discord">
+            <a href="https://discord.gg/hz4MDDFX" target="_blank">
+                <img src="discord.jpg" alt="Discord">
+            </a>
+        </div>
+
+        <div class="social-icon whatsapp">
+            <a href="https://wa.me/qr/V52HNDQXDHPIG1" target="_blank">
+                <img src="watsapp.jpg" alt="WhatsApp">
+            </a>
+        </div>
+
+        <div class="social-icon tiktok">
+            <a href="https://www.tiktok.com/@7_b4c?_t=8rWm3AVWve4&_r=1" target="_blank">
+                <img src="tiktok.jpg" alt="TikTok">
+            </a>
+        </div>
+
+        <div class="social-icon twitter">
+            <a href="https://x.com/Anas_alshare3?t=8FSWkP6W-fZB__bNrtax6A&s=09" target="_blank">
+                <img src="x.png" alt="Twitter">
+            </a>
+        </div>
+
+        <div class="social-icon snapchat">
+            <a href="https://www.snapchat.com/add/b4c_7?share_id=LpTAKa1YMW8&locale=en-US" target="_blank">
+                <img src="snapchat.png" alt="Snapchat">
+            </a>
+        </div>
+
+        <div class="social-icon threads">
+            <a href="https://www.threads.net/@anas_alshare" target="_blank">
+                <img src="threads.png" alt="Threads">
+            </a>
+        </div>
+
+        <div class="social-icon redz">
+            <a href="https://thexapp.app.link/kzsdb82FEOb" target="_blank">
+                <img src="reads.jpg" alt="Redz">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
